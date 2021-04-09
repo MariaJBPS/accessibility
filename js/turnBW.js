@@ -1,8 +1,10 @@
 function turnBW(){
     //turns almost everything black and white
-    //get the body element
-    var mainBody = document.getElementById("bod");
+    
+    var mainBody = document.getElementById("bod");  //get the body element
+    
     // an alternative if statement..
+
     mainBody.style.color != 'white' ?   //if font colour is not black
     mainBody.style.color = 'white' : mainBody.style.color = 'black'; //otherwise
 
