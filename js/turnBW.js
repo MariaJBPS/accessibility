@@ -18,12 +18,4 @@ function turnBW(){
 
     header.style.backgroundColor != 'white' ?
     header.style.backgroundColor = 'white' : header.style.backgroundColor = 'rgb(2, 2, 58)';
-
-    
-
-    var buttons = document.getElementsByClassName("btn");
-
-    buttons.style.color != 'black' ?
-    buttons.style.color = 'black' : buttons.style.color = 'darkgoldenrod';
-
 }
