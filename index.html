@@ -107,7 +107,7 @@
         <!-- <button type="button" onclick="turnRed()">Change text colour!</button> -->
 
         <script type="text/javascript">
-            // dont forget about the keyword function!
+            
             //function turnRed(){
                 //document.getElementById("text").style.color = "red";
            // }
@@ -119,7 +119,7 @@
                 //get the body element
                 var mainBody = document.getElementById("bod");
                 // an alternative if statement..
-                mainBody.style.color != 'white' ?   //if font colour is not black
+                mainBody.style.color != 'white' ?   //if font colour is not white
                 mainBody.style.color = 'white' : mainBody.style.color = 'black'; //otherwise
 
                 mainBody.style.backgroundColor != 'black' ?
@@ -142,29 +142,6 @@
 
             }
 
-            function font(e){
-                var text = document.getElementsByClassName(".txt");
-                var font = parseInt(text.css('font-size'));
-
-                var body = document.getElementById("bod");
-                const defaultSize = parseInt(body.css('font-size'));
-
-                    if (e == 'i') { // i for increase
-                    font++;
-                    }
-                    if (e == 'd'){ //d for decrease
-                        font--;
-                    }
-                    if (e == 'n'){ //n for normal
-                        font = defaultSize;
-                    }
-
-                    text.css("fontSize", font);
-
-            }
-
-            // increase or decrease may involver a counter for the font size?
-            // an increment at the end?
         </script>
     </body>
 </html>
