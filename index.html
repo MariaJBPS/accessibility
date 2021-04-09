@@ -18,19 +18,21 @@
 
     <body id="bod">
         <header id="header">
-        <h1 id="heading1" style="color:darkgoldenrod">This is just an Accessibility exercise page</h1>
-        <h2>Clicking on the buttons change the web page look</h2>
+            <h1 id="heading1" style="color:darkgoldenrod">This is just an Accessibility exercise page</h1>
+            <h2>Clicking on the buttons change the web page look</h2>
+            
+            <nav>
+                <ul>
+                    <li><button class="btn" onclick="font('i')">A+</button></li>
+                    <li><button class="btn" onclick="font('n')">A</button></li>
+                    <li><button class="btn" onclick="font('d')">A-</button></li>
+                    <li><button class="btn" onclick="turnBW()">B&W</button></li>
+                </ul>
+            </nav>
 
         </header>
 
-        <nav>
-            <ul>
-                <li><button class="btn" onclick="font('i')">A+</button></li>
-                <li><button class="btn" onclick="font('n')">A</button></li>
-                <li><button class="btn" onclick="font('d')">A-</button></li>
-                <li><button class="btn" onclick="turnBW()">B&W</button></li>
-            </ul>
-        </nav>
+       
         
         <p class="txt">Some text</p>
         <p class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
