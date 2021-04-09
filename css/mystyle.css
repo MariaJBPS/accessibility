@@ -1,0 +1,46 @@
+body {
+    /*background-color: rgb(2, 2, 58);*/
+    background-color: white;
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+header {
+    text-align: center;
+    padding:5%;
+    background-color: rgb(2, 2, 58);
+    color:white;
+}
+
+nav {
+    text-align: center;
+            
+}
+
+ul {
+    list-style-type: none; /* removes bullet points*/
+}
+        
+li{
+    display: inline;
+}
+
+button {
+    background-color: transparent;
+     border:solid;
+    cursor:pointer;
+    color:darkgoldenrod;
+    outline: none;
+    font-size: 20px;            
+}
+
+.btn:hover {
+    background-color: darkgoldenrod;
+    color:white;
+}
+
+p { 
+    font-size: 15px; 
+}
+        
