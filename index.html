@@ -1,0 +1,120 @@
+<!-- Author: Maria Santos
+    version: 9th April 2021
+-->
+<!DOCTTYPE html> 
+<html>
+    <head>
+
+    </head>
+            <!-- JQuery library -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <!-- change font function  -->
+    <script src="js/font.js"></script>
+
+    <!-- turn text B&W -->
+    <script src="js/turnBW.js"></script>
+
+    <style>
+        body {
+            /*background-color: rgb(2, 2, 58);*/
+            background-color: white;
+            color:black;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 15px;
+        }
+
+        header {
+            text-align: center;
+            padding:5%;
+            background-color: rgb(2, 2, 58);
+            color:white;
+        }
+
+        nav {
+            text-align: center;
+            
+        }
+        ul {
+            list-style-type: none; /* removes bullet points*/
+        }
+        
+        li{
+            display: inline;
+        }
+
+        button {
+            background-color: transparent;
+            border:solid;
+            cursor:pointer;
+            color:darkgoldenrod;
+            outline: none;
+            font-size: 20px;            
+        }
+
+        .btn:hover {
+            background-color: darkgoldenrod;
+            color:white;
+        }
+
+        p { 
+             font-size: 15px; 
+        }
+        
+
+    </style>
+    
+
+    <body id="bod">
+        <header id="header">
+        <h1 id="heading1" style="color:darkgoldenrod">This is just an Accessibility exercise page</h1>
+        <h2>Clicking on the buttons change the web page look</h2>
+
+        </header>
+
+        <nav>
+            <ul>
+                <li><button class="btn" onclick="font('i')">A+</button></li>
+                <li><button class="btn" onclick="font('n')">A</button></li>
+                <li><button class="btn" onclick="font('d')">A-</button></li>
+                <li><button class="btn" onclick="turnBW()">B&W</button></li>
+            </ul>
+        </nav>
+        
+        <p class="txt">Some text</p>
+        <p class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Aenean neque enim, tincidunt eu posuere quis, lacinia quis odio. 
+            Donec ac fermentum ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; 
+            Proin consequat magna ac orci accumsan ultricies. Ut blandit leo risus, eu condimentum erat blandit sit amet. 
+            Nam at fermentum massa, ac feugiat eros.</p>
+        <p class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Aenean neque enim, tincidunt eu posuere quis, lacinia quis odio. 
+                Donec ac fermentum ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; 
+                Proin consequat magna ac orci accumsan ultricies. Ut blandit leo risus, eu condimentum erat blandit sit amet. 
+                Nam at fermentum massa, ac feugiat eros.
+                onec ac fermentum ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; 
+                Proin consequat magna ac orci accumsan ultricies. Ut blandit leo risus, eu condimentum erat blandit sit amet. 
+                Nam at fermentum massa, ac feugiat eros.            
+        </p>
+        <p class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Aenean neque enim, tincidunt eu posuere quis, lacinia quis odio. 
+            Donec ac fermentum ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; 
+            Proin consequat magna ac orci accumsan ultricies. Ut blandit leo risus, eu condimentum erat blandit sit amet. 
+            Nam at fermentum massa, ac feugiat eros.
+            onec ac fermentum ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; 
+            Proin consequat magna ac orci accumsan ultricies. Ut blandit leo risus, eu condimentum erat blandit sit amet. 
+            Nam at fermentum massa, ac feugiat eros.            
+        </p>
+
+        <p class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Aenean neque enim, tincidunt eu posuere quis, lacinia quis odio. 
+            Donec ac fermentum ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; 
+            Proin consequat magna ac orci accumsan ultricies. Ut blandit leo risus, eu condimentum erat blandit sit amet. 
+            Nam at fermentum massa, ac feugiat eros.
+            onec ac fermentum ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; 
+            Proin consequat magna ac orci accumsan ultricies. Ut blandit leo risus, eu condimentum erat blandit sit amet. 
+            Nam at fermentum massa, ac feugiat eros.            
+        </p>
+
+    </body>
+</html>
